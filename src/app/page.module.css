@@ -1,0 +1,71 @@
+.container {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #8944e94f;
+}
+
+.content {
+  text-align: center;
+  height: 30vh;
+  width: 100vh;
+  padding: 20px;
+  margin-left: 25%;
+  background-color: #6bdafc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.additionalContent {
+  text-align: center;
+  height: 30vh;
+  width: 100vh;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 25%;
+  background-color: #6bdafc ;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.inputField {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #a3a2a2;
+  border-radius: 5px;
+}
+
+.inputButton {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.card {
+  width: 30px;
+  border-radius: 5px;
+  flex: 0 0 auto;
+}
+
+.card {
+  width: 18%;
+  background-color: rgb(200, 212, 194);
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.inputButton:hover {
+  background-color: #0056b3;
+}
